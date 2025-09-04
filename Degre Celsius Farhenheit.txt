@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main ()
+{
+      float a,c;
+      printf("Enter the deired dgree to fahrenheit");
+      scanf("%f",&a);
+      c=(a*9/5)+ 32;
+      
+      printf("fahrenheit: %f", c);
+      
+      return 0;
+}

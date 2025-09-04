@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+ int main()
+{ 
+ 
+    int n,r;
+    printf("Enter no.\n");
+    scanf("%d",&n);
+    for(r=1;r<=n-1;r++){
+    if(n%r==0){
+            printf("no. is not prime \n");
+            
+   }
+   }
+if(n==r){
+    printf("no. is prime");
+}
+
+return 0;
+}
